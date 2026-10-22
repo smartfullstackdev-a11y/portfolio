@@ -1,0 +1,25 @@
+@import "media-queries.scss";
+
+.projects {
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  overflow-x: hidden;
+  overflow-y: auto;
+  grid-gap: 20px;
+  gap: 20px;
+  padding: 10px 30px;
+  max-width: 1400px;
+
+  @include lt-xl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @include lt-md {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  @include lt-sm {
+    margin: 0px auto;
+    padding: 10px 0px;
+  }
+}

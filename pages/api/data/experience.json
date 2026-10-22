@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "role": "Full Stack Developer",
+    "company": "Inspect",
+    "period": "03/2021 - 04/2024",
+    "description": "Inspect's goal is to give users in-context, personalized insights so they can make informed decisions as they navigate Web3.",
+    "links": [
+      {
+        "website": "https://www.inspect.xyz/"
+      },
+      {
+        "telegram": "https://t.me/inspectxyz"
+      },
+      {
+        "twitter": "https://x.com/inspectxyz"
+      },
+      {
+        "linkedin": "https://www.linkedin.com/company/nftinspect/"
+      }
+    ],
+    "achievements": [
+      "Implemented responsive UI components and complex state management with React and Redux.",
+      "Trained machine learning models using Python, scikit-learn, and TensorFlow",
+      "Wrote Solidity smart contracts to manage the token issuance and distribution."
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Software Engineer",
+    "company": "SwissBorg",
+    "period": "05/2018 - 03/2021",
+    "description": "SwissBorg is a cryptocurrency platform that offers financial services such as wealth management, trading, and a native token called CHSB.",
+    "links": [
+      {
+        "website": "https://swissborg.com/"
+      },
+      {
+        "telegram": "https://t.me/SwissBorgChat"
+      },
+      {
+        "twitter": "https://x.com/swissborg"
+      },
+      {
+        "instagram": "https://www.instagram.com/swissborg/"
+      }
+    ],
+    "achievements": [
+      "Developed an AI reporting tool using Python to allow marketing teams to explore customer segments and generate insights",
+      "Utilized React and Tailwind CSS to build user-friendly interfaces",
+      "Developed server-side logic using Python and Node.js, ensuring high performance."
+    ]
+  },
+  {
+    "id": 3,
+    "role": "Full Stack Developer",
+    "company": "10CLOUDS",
+    "period": "10/2014 - 05/2018",
+    "description": "10Clouds is a digital product agency specializing in crafting software solutions for clients worldwide.",
+    "links": [
+      {
+        "website": "https://10clouds.com/"
+      },
+      {
+        "linkedin": "https://www.linkedin.com/company/10clouds-com"
+      },
+      {
+        "twitter": "https://twitter.com/10clouds"
+      },
+      {
+        "instagram": "https://www.instagram.com/10clouds/"
+      }
+    ],
+    "achievements": [
+      "Built a scalable e-commerce platform from scratch using PHP.",
+      "Integrated various payment gateways, including Stripe for payment processing.",
+      "Integrated and customized WooCommerce for multiple e-commerce sites."
+    ]
+  }
+]

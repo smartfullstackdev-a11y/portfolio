@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Inspect",
+    "description": "A platform to give users in-context, personalized insights so they can make informed decisions as they navigate Web3.",
+    "tags": [
+      "React",
+      "Blockchain",
+      "Solidity",
+      "Web3",
+      "TypeScript",
+      "Ethereum",
+      "Node.js"
+    ],
+    "link": "https://www.inspect.xyz/"
+  },
+  {
+    "id": 2,
+    "title": "SwissBorg",
+    "description": "A cryptocurrency platform that offers financial services such as wealth management, trading, and CHSB.",
+    "tags": [
+      "Python",
+      "React",
+      "JavaScript",
+      "Blockchain",
+      "Solana",
+      "AI",
+      "Web3",
+      "TailwindCSS"
+    ],
+    "link": "https://swissborg.com/"
+  },
+  {
+    "id": 3,
+    "title": "LiquidLoans",
+    "description": "The first truly decentralized lending protocol built for PulseChain.",
+    "tags": [
+      "React",
+      "Python",
+      "JavaScript",
+      "PHP",
+      "Blockchain",
+      "Ethereum",
+      "Web3"
+    ],
+    "link": "https://go.liquidloans.io/"
+  },
+  {
+    "id": 8,
+    "title": "AiLawyer",
+    "description": "An application that offers legal services powered by artificial intelligence.",
+    "tags": [
+      "React",
+      "AI",
+      "Python",
+      "TailwindCSS",
+      "Chatgpt",
+      "Golang",
+      "Stripe"
+    ],
+    "link": "https://ailawyer.pro/"
+  },
+  {
+    "id": 4,
+    "title": "Aireno",
+    "description": "A platform designed to streamline the process of getting quotes for renovation projects",
+    "tags": [
+      "PHP",
+      "AI",
+      "Python",
+      "Stripe",
+      "WordPress",
+      "JavaScript",
+      "JQuery"
+    ],
+    "link": "https://aireno.com.au/"
+  },
+  {
+    "id": 5,
+    "title": "NordiskGold",
+    "description": "An e-commerce platform for buying and selling gold, silver, and jewelry.",
+    "tags": [
+      "PHP",
+      "WordPress",
+      "JavaScript",
+      "JQuery",
+      "TailwindCSS",
+      "Stripe",
+      "WooCommerce"
+    ],
+    "link": "https://nordiskguld.dk/"
+  },
+  {
+    "id": 6,
+    "title": "GoldAvenue",
+    "description": "The official online reseller of the MKS PAMP GROUP.",
+    "tags": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "NestJS",
+      "MongoDB"
+    ],
+    "link": "https://www.goldavenue.com/"
+  },
+  {
+    "id": 7,
+    "title": "Pivx",
+    "description": "A decentralized cryptocurrency that prioritizes user data protection.",
+    "tags": [
+      "PHP",
+      "Laravel",
+      "Blockchain",
+      "GSAP",
+      "C++",
+      "Rust"
+    ],
+    "link": "https://pivx.org/"
+  },
+  {
+    "id": 9,
+    "title": "Cryptonomadic",
+    "description": "A generative NFT art collection that is built on the Ethereum Blockchain.",
+    "tags": [
+      "Blockchain",
+      "Ethereum",
+      "React",
+      "Next.js",
+      "Node.js",
+      "TypeScript"
+    ],
+    "link": "https://cryptonomadic.com/"
+  }
+]

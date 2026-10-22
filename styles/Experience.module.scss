@@ -1,0 +1,198 @@
+@import "media-queries.scss";
+
+.container {
+  margin: 30px auto 0px auto;
+
+  @include lt-md {
+    margin-top: 10px;
+  }
+}
+
+.cover {
+  background-image: var(--background);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  height: 400px;
+  top: -20%;
+  left: 0;
+  will-change: top;
+  background-size: cover;
+  background-position: 50%;
+  filter: blur(30px);
+  transform: scale(1.2);
+  z-index: -1;
+  --background: url(/imgs/experience/1.png);
+}
+
+.role {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Acme;
+  letter-spacing: 2px;
+
+  @include lt-md {
+    font-size: 20px;
+  }
+}
+
+.justifyBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companyName {
+  font-size: 22px;
+  color: #d3d3d3;
+  font-weight: 500;
+  margin-bottom: 5px;
+
+  @include lt-md {
+    font-size: 18px;
+  }
+}
+
+.expSwiper {
+  width: 700px;
+  height: 550px;
+
+  @include lt-lg {
+    width: 500px;
+  }
+
+  @include lt-md {
+    width: 300px;
+    height: 450px;
+  }
+
+  .swiperCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+    @include lt-md {
+      font-size: 14px;
+    }
+  }
+
+  .swiperSlide {
+    display: flex;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 0 0 8px hsla(0, 0%, 100%, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+
+  .desc {
+    color: black;
+    font-size: 14px;
+    margin-top: 12px;
+
+    ul {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    @include lt-md {
+      padding-bottom: 10px;
+      font-size: 12px;
+    }
+  }
+}
+
+.smSwiperContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  @include lt-md {
+    flex-direction: column;
+    margin-top: 12px;
+  }
+
+  .smSwiper {
+    width: 380px;
+    height: 180px;
+    box-shadow: 0 0 0 5px hsla(0, 0%, 100%, 0.1);
+    border-radius: 10px;
+
+    @include lt-md {
+      width: 220px;
+      height: 150px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .about {
+    width: 240px;
+    font-size: 12px;
+  }
+}
+
+.companyIcons {
+  display: flex;
+  gap: 20px;
+
+  @include lt-md {
+    gap: 12px;
+  }
+}
+
+.education {
+  width: 700px;
+  box-shadow: 0 0 0 5px hsla(0, 0%, 100%, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 3rem;
+  color: black;
+
+  @include lt-lg {
+    width: 500px;
+  }
+
+  @include lt-md {
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .title {
+    font-family: Acme;
+    color: #1779db;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 12px;
+
+    @include lt-md {
+      font-size: 20px;
+    }
+  }
+
+  .university {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+    @include lt-md {
+      flex-direction: column;
+    }
+  }
+
+  .duration {
+    color: #1779db;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+}

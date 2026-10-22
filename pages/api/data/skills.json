@@ -1,0 +1,61 @@
+{
+  "Back-end": {
+    "Python": 9,
+    "Node.js": 10,
+    "NestJS": 9,
+    "ExpressJS": 10,
+    "AWS Lambda": 9,
+    "Microservice": 8,
+    "Django": 9,
+    "PHP": 10,
+    "Laravel": 9,
+    "Restful API": 9,
+    "GraphQL": 9,
+    "MySQL": 9,
+    "MongoDB": 8,
+    "CI/CD": 9
+  },
+  "Front-end": {
+    "React.js": 10,
+    "Next.js": 9,
+    "Angular": 9,
+    "Ionic": 9,
+    "JavaScript": 9,
+    "TypeScript": 9,
+    "HTML/CSS": 10,
+    "SCSS": 10,
+    "Svelte": 8,
+    "Tailwind CSS": 10,
+    "Bootstrap": 9,
+    "Material UI": 9,
+    "Chakra UI": 9,
+    "Ant Design": 9
+  },
+  "Blockchain": {
+    "Web3.js": 10,
+    "Solidity": 9,
+    "Rust": 9,
+    "NFT": 9,
+    "Defi/DAPP/DEX": 9,
+    "Wallet Connect": 8,
+    "Ethereum": 9,
+    "Binance Smart Chain": 9,
+    "Solana": 9,
+    "Cosmos": 8,
+    "Substrate": 9,
+    "Polkadot": 9,
+    "ICO/Bridge": 9,
+    "Openzeppelin": 9
+  },
+  "Project Management & Others": {
+    "JIRA": 10,
+    "Slack": 9,
+    "Trello": 9,
+    "Github": 9,
+    "Gitlab": 9,
+    "Bitbucket": 8,
+    "Docker": 9,
+    "Jenkins": 9,
+    "Kubernetes": 9
+  }
+}
